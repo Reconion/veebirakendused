@@ -1,0 +1,49 @@
+/*Header*/
+header{
+    margin-left: 10px;
+}
+/*Header*/
+
+/*Content*/
+.content{
+    margin-left: 10px
+}
+/*Content*/
+
+/*Courses list*/
+.list {
+    margin-left: -350px;
+    background-color: lightgray;
+    width: 350px;
+    position: fixed;
+    display: block;
+    overflow-x: hidden;
+    top: 0;
+    height: 100%
+}
+.list h1{
+    text-align: center;
+    background-color: gray;
+}
+.list table{
+    background-color: lightgray;
+    border-collapse: collapse;
+}
+.list table tr td{
+    border-bottom: 1px solid black;
+}
+.list table tbody tr:hover{
+    background-color: white;
+}
+.list table tbody tr td:first-child{
+    padding -left: 3px;
+    padding-right: 10px;
+}
+.list table tbody tr td:nth-child(2){
+    padding-right: 23px
+}
+
+.list table thead tr th:nth-child(3){
+    padding-right: 5px;
+}
+/*Courses list*/
