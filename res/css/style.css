@@ -1,24 +1,28 @@
 /*Header*/
-header{
-    margin-left: 10px;
+header {
+    text-align: justify;
+    text-align-last: justify;
+    font-size: 25px;
+    left: 0px;
+    position: fixed;
 }
 /*Header*/
 
 /*Content*/
 .content{
-    margin-left: 10px
+    margin-left: 10px;
 }
 /*Content*/
 
 /*Courses list*/
 .list {
-    margin-left: -350px;
+    margin-left: 0px;
     background-color: lightgray;
-    width: 350px;
+    width: 75%;
     position: fixed;
     display: block;
     overflow-x: hidden;
-    top: 0;
+    top: 50px;
     height: 100%
 }
 .list h1{
@@ -28,15 +32,20 @@ header{
 .list table{
     background-color: lightgray;
     border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+    margin: auto;
+
 }
 .list table tr td{
     border-bottom: 1px solid black;
+    text-align: left;
 }
 .list table tbody tr:hover{
     background-color: white;
 }
 .list table tbody tr td:first-child{
-    padding -left: 3px;
+    padding-left: 3px;
     padding-right: 10px;
 }
 .list table tbody tr td:nth-child(2){
@@ -47,3 +56,50 @@ header{
     padding-right: 5px;
 }
 /*Courses list*/
+
+/*Name*/
+#name {
+    font-weight: bold;
+    color: #0b93ff;
+}
+/*Name*/
+
+/*Personal information*/
+.personal {
+    top: 50px;
+    position: fixed;
+    left: 0px;
+    width: 25%;
+}
+/*Personal information*/
+
+/*My picture*/
+img {
+    width: 50%;
+}
+/*My picture*/
+
+/*General sibling combinator*/
+#name ~ li {
+    color: red;
+}
+/*General sibling combinator*/
+
+/*Child combinator*/
+.personal > div {
+    color: purple;
+    text-align: center;
+}
+/*Child combinator*/
+
+/*Footer*/
+footer {
+    left: 0px;
+    top: 90%;
+    color: yellow;
+    position: fixed;
+}
+/*Footer*/
+
+
+
