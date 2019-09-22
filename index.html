@@ -7,7 +7,7 @@
     <title>Hello world!</title>
 </head>
 
-<body style="background-color: dimgray; margin-left: 350px">
+<body style="background-color: #BBC9DD; margin-left: 350px">
 <header>
     <strong>Welcome to your dashboard!</strong>
 </header>
@@ -17,11 +17,23 @@
         <img src="res/images/me.png" alt="My picture" title="Not really my picture">
     </div>
     <div>
-        <ul>
-            <li id="name">John Doe</li>
-            <li>27/06/1993</li>
-            <li>Software Engineering</li>
-        </ul>
+        <table>
+            <tbody align="left">
+                <tr>
+                    <th scope="row">Name</th>
+                    <td id="name">John Doe</td>
+                </tr>
+                <tr>
+                    <th scope="row">Date of birth</th>
+                    <td>27/06/1993</td>
+                </tr>
+                <tr>
+                    <th scope="row">Specialization</th>
+                    <td>Software Engineering</td>
+                </tr>
+
+            </tbody>
+        </table>
     </div>
     <div>
         <strong>2.65</strong>
@@ -61,7 +73,7 @@
             <td>99</td>
         </tr>
         <tr>
-            <td>4</td>
+            <td class="estonian">4</td>
             <td>Estonian language Level A2</td>
             <td>2</td>
             <td>65</td>
@@ -71,14 +83,13 @@
 </section>
 
 <footer>
-    <ul>
-        <li>
-            <a href="https://ois2.ut.ee/">OIS</a>
-        </li>
-        <li>
-            <a href="https://courses.cs.ut.ee/">Courses</a>
-        </li>
-    </ul>
+    <table class="lingid">
+        <tr>
+            <td>Lingid:</td>
+            <td><a href="https://ois2.ut.ee/#/dashboard">Õis</a></td>
+            <td><a href="https://moodle.ut.ee/?redirect=0">Moodle</a></td>
+        </tr>
+    </table>
 </footer>
 </body>
 </html>
